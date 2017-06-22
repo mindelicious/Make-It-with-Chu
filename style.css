@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');
+
+body {
+    font-family: 'Patrick Hand SC';
+    margin: 0 auto;
+    background-color: rgba(164,179,87,1);
+}
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header {
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 40px;
+    line-height: 40px;
+    background-color: lightseagreen;
+}
+header .container {
+    justify-content: flex-end;
+}
+ul {
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+}
+li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 10px;
+    color: green;
+}
+li:hover {
+    background-color: green;
+    border-radius: 17px 3px;
+}
+li:hover a {
+    color: lightseagreen;
+}
+
+li {
+    cursor: pointer;
+}
+.jumbotron {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jumbotrone img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+img {
+    width: 100%;
+}
+.jumbotrone h1 {
+    font-size: 4rem;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    color: pink;
+    text-shadow: 0 1px 0 violet,
+               0 2px 0 purple,
+               0 3px 0 darkorchid,
+               0 4px 0 darkmagenta,
+               0 5px 0 darkred,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+.gallery {
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 0;
+}
+.cards {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 200px;
+    color: whitesmoke;
+    padding: 0 10px;
+}
+footer {
+    justify-content: center;
+    background-color: greenyellow;
+}
+footer .container div {
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    color: lightseagreen;
+}
+footer div:nth-child(2) {
+    flex: 2;
+}
